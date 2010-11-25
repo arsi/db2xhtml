@@ -1,0 +1,16 @@
+ol.tocroot {
+    padding: 10px;
+    background-color: #ccccff;
+    border-radius: 10px;
+    list-style-type: none;
+}
+
+ol.tocsection {
+    list-style-type: none;
+    counter-reset: toc;
+}
+
+ol.tocsection li.tocsection:before {
+    counter-increment: toc;
+    content: counters(toc, ".") " ";
+}

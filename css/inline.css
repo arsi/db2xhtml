@@ -1,0 +1,160 @@
+span.e_arq:before {
+    content: "[";
+}
+
+span.e_arq:after {
+    content: "]";
+}
+
+span.e_application {
+    background-color: #cceecc;
+    border: 1px solid #aaccaa;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+span.e_author {
+}
+
+span.e_author:after {
+    content: " (author) ";
+}
+
+span.e_authorinitials {}
+
+span.e.authorinitials:after {
+    content: " (author) ";
+}
+
+span.e_command {
+    font-family: monospace;
+}
+
+span.e_corpauthor {
+}
+
+span.e_date {
+    padding: 2px;
+    color: #000000;
+}
+
+span.e_emphasis {
+    font-weight: bold;
+}
+
+span.e_filename {
+    background-color: #e0e0e0;
+    padding: 2px;
+}
+
+span.e_firstname {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+span.e_footnote {
+}
+
+span.e_footnote:before {
+    font-size: xx-small;
+    vertical-align: super;
+    color: #666666;
+    counter-increment: footnote;
+    content: "[" counter(footnote) "]";
+}
+
+span.e_group:before {
+    content: "[";
+}
+
+span.e_group:after {
+    content: "]";
+}
+
+span.e_guibutton {
+    padding-left: 2px;
+    padding-right: 2px;
+    border: 1px solid #a0a0a0;
+    background-color: #c0c0c0;
+}
+
+span.e_honorific {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+span.e_othername {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+span.e_quote:before {
+    content: '"';
+}
+
+span.e_quote:after {
+    content: '"';
+}
+
+span.e_revnumber {
+    padding-left: 5px;
+    border-left: 1px solid #664422;
+}
+
+span.e_revremark {
+    padding-left: 5px;
+    border-left: 1px solid #664422;
+}
+
+span.e_sgmltag_:before {
+    content: "<";
+}
+
+span.e_sgmltag_ {
+}
+
+span.e_sgmltag_:after {
+    content: ">";
+}
+
+span.e_sgmltag_endtag:before {
+    content: "</";
+}
+
+span.e_sgmltag_endtag:after {
+    content: ">";
+}
+
+span.e_sgmltag_starttag:before {
+    content: "<";
+}
+
+span.e_sgmltag_starttag:after {
+    content: ">";
+}
+
+span.e_subscript {
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+span.e_superscript {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+span.e_surname {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a.e_ulink {
+    background-image: url(ulink-icon.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 15px;
+}
+
+span.e_varname {
+    font-family: monospace;
+}

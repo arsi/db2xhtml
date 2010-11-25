@@ -1,0 +1,177 @@
+div.e_abstract {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 1px solid #aaaa66;
+    border-bottom: 1px solid #aaaa66;
+}
+
+@media screen {
+    div.e_beginpage {
+        width: 100%;
+        border-bottom: 2px dotted #a0a0a0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media print {
+    div.e_beginpage {
+        page-break-after: always;
+    }
+}
+
+ol.e_bibliodiv:before {
+    counter-increment: biblio;
+    content: counters(biblio);
+}
+
+ol.e_bibliodiv {
+    margin-top: 5px;
+    padding: 5px;
+    border-top: 1px dotted #9999cc;
+}
+
+div.e_bibliodiv_title {
+}
+
+li.e_biblioentry:before {
+}
+
+li.e_biblioentry {
+    margin-left: 50px;
+}
+
+div.e_biblioentry_title {
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+
+div.e_blockquote {
+    background-color: #e0e0a0;
+    padding: 5px;
+}
+
+div.e_bridgehead_sect1 {
+    font-weight: bold;
+}
+
+div.e_bridgehead_sect2 {
+    font-weight: bold;
+}
+
+div.e_bridgehead_sect3 {
+    font-weight: bold;
+}
+
+div.e_bridgehead_sect4 {
+    font-weight: bold;
+}
+
+div.e_bridgehead_sect5 {
+    font-weight: bold;
+}
+
+div.e_caution {
+    color: #000000;
+    background-color: #ffe0e0;
+    border-top: 1px solid #ffc0c0;
+    border-bottom: 1px solid #ffc0c0;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div.e_example {
+    border: 1px solid #a0a0a0;
+    padding: 5px;
+}
+
+div.e_example_title {
+    border: 1px solid #e0e0e0;
+    background-color: #c0c0c0;
+    padding: 2px;
+}
+
+div.e_glossentry {
+    border-bottom: 1px solid #a0a0c0;
+    padding: 10px;
+}
+
+div.e_glossdef {
+    margin-left: 80px;
+}
+
+div.e_important {
+    color: #000000;
+    background-color: #e0ffff;
+    border-top: 1px solid #c0ffc0;
+    border-bottom: 1px solid #c0ffc0;
+    padding: 10px;
+}
+
+div.e_legalnotice {
+    font-size: smaller;
+}
+
+div.e_note {
+    color: #000000;
+    background-color: #e0e0e0;
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div.e_para {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div.e_programlisting {
+    color: #000000;
+    background-color: #ffcc99;
+    border: 1px solid #cc9966;
+    font-size: smaller;
+    font-type: monospace;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+div.e_screen {
+    color: #fcfcfc;
+    background-color: #000000;
+    border: 1px solid #666666;
+    font-size: smaller;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+div.e_tip {
+    color: #000000;
+    background-color: #e0e0a0;
+    border-top: 1px solid #aaaa00;
+    border-bottom: 1px solid #aaaa00;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+span.e_title {
+    font-weight: bold;
+}
+
+div.e_warning {
+    color: #000000;
+    background-color: #ffc0c0;
+    border-top: 1px solid #ff0000;
+    border-bottom: 1px solid #ff0000;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div.e_xi_include {
+    border: 1px solid red;
+}

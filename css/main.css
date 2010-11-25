@@ -1,0 +1,103 @@
+/*
+ * db2xhtml CSS Library, version 0.2
+ *
+ * Browserside DocBook to XHTML XSLT/CSS Transformation
+ *
+ * Copyright 2010 Arsi Atomi, email arsi at porkkana dot org
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License (http://www.gnu.org/licenses/) for more details.
+ */
+
+@import "sectioncounters.css";
+@import "toc.css";
+@import "suppressed.css";
+@import "inline.css";
+@import "block.css";
+@import "footnotebox.css";
+@import "lists.css";
+@import "table.css";
+@import "db2xhtml.css";
+
+body {
+    color: #000000;
+    background-color: #a0a0c0;
+    font-family: verdana, serif;
+    counter-reset: footline;
+    font-size: smaller;
+}
+
+div.header {
+    color: #ffffff;
+    background-color: #000000;
+    counter-reset: footnote;
+}
+
+div.toc {
+    color: #000000;
+    background-color: #fcfcfc;
+    width: 780px;
+    padding: 20px;
+    padding-right: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #0000cc;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+a:hover {
+    color: #0000cc;
+    background-color: #aaaacc;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+a:active {
+    color: #0000cc;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+a:visited {
+    color: #0000cc;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+div.content {
+    color: #000000;
+    background-color: #fcfcfc;
+    width: 800px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 60px;
+    margin-top: 20px;
+}
+
+div.footnotes {
+    color: #000000;
+    background-color: #fcfcfc;
+    width: 780px;
+    padding: 20px;
+    font-size: smaller;
+    margin-top: 20px;
+    padding-left: 60px;
+}
+
+div.footer {
+    color: #ffffff;
+    background-color: #000000;
+}

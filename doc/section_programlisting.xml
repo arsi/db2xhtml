@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/main.xsl"?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<section id="programlisting">
+    <title>programlisting</title>
+    <sectioninfo>
+        <revhistory>
+            <revision>
+                <date>2010-11-25</date>
+                <author><firstname>Arsi</firstname><surname>Atomi</surname></author>
+                <revremark>Initial draft</revremark>
+            </revision>
+        </revhistory>
+    </sectioninfo>
+    <section>
+        <title>Example of programlisting</title>
+        <para>This is a programlisting example.</para>
+        <programlisting>10 PRINT "Hello world!"
+20 GOTO 10</programlisting>
+    </section>
+    <section>
+        <title>Example lines</title>
+        <programlisting><![CDATA[<programlisting>10 PRINT "Hello world!"
+20 GOTO 10</programlisting>]]></programlisting>
+    </section>
+    <section>
+        <title>Example of other stuff inside programlisting</title>
+        <programlisting>10 PRINT "<emphasis>Hello world!</emphasis>"
+20 GOTO 10</programlisting>
+    </section>
+</section>

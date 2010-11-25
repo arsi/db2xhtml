@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/main.xsl"?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<section id="element_caution_children">
+    <title>Children of caution</title>
+    <para>These elements can occur in <sgmltag>caution</sgmltag>:
+        <simplelist type='inline'>
+            <member><link linkend="element_address">address</link></member>
+            <member><link linkend="element_anchor">anchor</link></member>
+            <member><link linkend="element_beginpage">beginpage</link></member>
+            <member><link linkend="element_bibliolist">bibliolist</link></member>
+            <member><link linkend="element_blockquote">blockquote</link></member>
+            <member><link linkend="element_bridgehead">bridgehead</link></member>
+            <member><link linkend="element_calloutlist">calloutlist</link></member>
+            <member><link linkend="element_classsynopsis">classsynopsis</link></member>
+            <member><link linkend="element_cmdsynopsis">cmdsynopsis</link></member>
+            <member><link linkend="element_constructorsynopsis">constructorsynopsis</link></member>
+            <member><link linkend="element_destructorsynopsis">destructorsynopsis</link></member>
+            <member><link linkend="element_equation">equation</link></member>
+            <member><link linkend="element_example">example</link></member>
+            <member><link linkend="element_fieldsynopsis">fieldsynopsis</link></member>
+            <member><link linkend="element_figure">figure</link></member>
+            <member><link linkend="element_formalpara">formalpara</link></member>
+            <member><link linkend="element_funcsynopsis">funcsynopsis</link></member>
+            <member><link linkend="element_glosslist">glosslist</link></member>
+            <member><link linkend="element_graphic">graphic</link></member>
+            <member><link linkend="element_graphicco">graphicco</link></member>
+            <member><link linkend="element_indexterm">indexterm</link></member>
+            <member><link linkend="element_informalequation">informalequation</link></member>
+            <member><link linkend="element_informalexample">informalexample</link></member>
+            <member><link linkend="element_informalfigure">informalfigure</link></member>
+            <member><link linkend="element_informaltable">informaltable</link></member>
+            <member><link linkend="element_itemizedlist">itemizedlist</link></member>
+            <member><link linkend="element_literallayout">literallayout</link></member>
+            <member><link linkend="element_mediaobject">mediaobject</link></member>
+            <member><link linkend="element_mediaobjectco">mediaobjectco</link></member>
+            <member><link linkend="element_methodsynopsis">mediasynopsis</link></member>
+            <member><link linkend="element_orderedlist">orderedlist</link></member>
+            <member><link linkend="element_para">para</link></member>
+            <member><link linkend="element_procedure">procedure</link></member>
+            <member><link linkend="element_programlisting">programlisting</link></member>
+            <member><link linkend="element_programlistingco">programlistingco</link></member>
+            <member><link linkend="element_remark">remark</link></member>
+            <member><link linkend="element_screen">screen</link></member>
+            <member><link linkend="element_screenco">screenco</link></member>
+            <member><link linkend="element_screenshot">screenshot</link></member>
+            <member><link linkend="element_segmentedlist">segmentedlist</link></member>
+            <member><link linkend="element_sidebar">sidebar</link></member>
+            <member><link linkend="element_simpara">simpara</link></member>
+            <member><link linkend="element_simplelist">simplelist</link></member>
+            <member><link linkend="element_synopsis">synopsis</link></member>
+            <member><link linkend="element_table">table</link></member>
+            <member><link linkend="element_title">title</link></member>
+            <member><link linkend="element_variablelist">variablelist</link></member>
+        </simplelist>
+    </para>
+</section>

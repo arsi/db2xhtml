@@ -1,0 +1,9 @@
+span.footline:before {
+    margin-left: -30px;
+    counter-increment: footline;
+    content: "[" counter(footline) "] ";
+}
+
+span.footline {
+
+}

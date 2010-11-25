@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/main.xsl"?>
+<!DOCTYPE set PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<set>
+    <title>db2xhtml Library</title>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="book_introduction.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="book_documentation.xml" />
+</set>

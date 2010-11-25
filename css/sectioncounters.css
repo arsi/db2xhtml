@@ -1,0 +1,18 @@
+ol.root {
+    list-style-type: none;
+}
+
+ol.section {
+    list-style-type: none;
+    counter-reset: item;
+}
+
+ol.section li.section:before {
+    font-weight: bold;
+    counter-increment: item;
+    content: counters(item, ".") " ";
+}
+
+li.section {
+    margin-top: 10px;
+}

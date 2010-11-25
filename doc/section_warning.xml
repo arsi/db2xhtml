@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/main.xsl"?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<section id="element_warning">
+    <title>warning</title>
+    <sectioninfo>
+        <revhistory>
+            <revision>
+                <date>2010-11-25</date>
+                <author><firstname>Arsi</firstname><surname>Atomi</surname></author>
+                <revremark>Initial draft</revremark>
+            </revision>
+        </revhistory>
+    </sectioninfo>
+    <para>Warning is an admonition, usually set off from main text.</para>
+    <para>Warning is meant to imply reader of the possibility of harm. For example: <sgmltag>caution</sgmltag> could imply harm to equipment while <sgmltag>warning</sgmltag> could imply harm to a person.</para>
+    <para>Differences between admonitions are not defined in DocBook.</para>
+    <para>Warning requires <sgmltag>para</sgmltag> or other elements for displaying any text.</para>
+    <note>
+        <title>Source</title>
+        <para>DocBook: The Definitive Guide : <ulink url="http://www.docbook.org/tdg/en/html/warning.html" /></para>
+    </note>
+    <section>
+        <title>warning in db2xhtml Library</title>
+        <para>Style at <filename>~css/block.css</filename> element div.e_warning {}</para>
+        <para>Processing at <filename>~xsl/elements/block/warning.xsl</filename></para>
+    </section>
+    <section>
+        <title>Example of warning</title>
+        <para>Example how db2xhtml Library presents <sgmltag>warning</sgmltag>.</para>
+        <para>Basic use of warning with title</para>
+        <warning>
+            <title>Warning title</title>
+            <para>This is a warning example.</para>
+        </warning>
+        <para>XML lines</para>
+        <programlisting><![CDATA[<warning>
+    <title>Warning title</title>
+    <para>This is a warning example</para>
+</warning>]]></programlisting>
+        <para>Also, warning can have many different elements inside</para>
+        <para>Here's example with <sgmltag>itemizedlist</sgmltag></para>
+        <warning>
+            <itemizedlist>
+                <listitem><para>First item</para></listitem>
+                <listitem><para>Second item</para></listitem>
+            </itemizedlist>
+        </warning>
+        <para>And XML lines</para>
+        <programlisting><![CDATA[<warning>
+            <itemizedlist>
+                <listitem><para>First item</para></listitem>
+                <listitem><para>Second item</para></listitem>
+            </itemizedlist>
+</warning>]]></programlisting>
+    </section>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_warning_parents.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_warning_children.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_warning_seealso.xml" />
+</section>

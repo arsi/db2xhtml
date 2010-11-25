@@ -1,0 +1,7 @@
+db2xhtml Library 0.2
+
+Client side DocBook to XHTML translation with XSLT+CSS stylesheets.
+
+Further reading at doc/index.xml (or http://www.porkkana.org/~arsi/db2xhtml/doc/index.xml)
+
+Project downloadable at http://github.com/arsi/db2xhtml/

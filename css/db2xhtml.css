@@ -1,0 +1,9 @@
+span.db2xhtml_error {
+    color: #ff0000;
+}
+
+div.db2xhtml_info_title {
+    color: #ffffff;
+    background-color: #666666;
+    padding: 2px 2px 2px 6px;
+}

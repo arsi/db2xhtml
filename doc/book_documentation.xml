@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/main.xsl"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<book>
+    <title>db2xhtml Library Documentation</title>
+    <bookinfo>
+        <legalnotice>
+            <para>Copyright 2010 Arsi Atomi</para>
+            <para>Permission is granted to copy, distribute and/or modify this document under the
+ terms of the GNU Free Documentation License, Version 1.3 or any later version
+ published by the Free Software Foundation; with no Invariant Sections, no
+ Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in
+ the section entitled “<link linkend="fdl">GNU Free Documentation License</link>”.</para>
+        </legalnotice>
+        <revhistory>
+            <revision>
+                <date>2010-11-11</date>
+                <author><firstname>Arsi</firstname><surname>Atomi</surname></author>
+                <revremark>Initial draft</revremark>
+            </revision>
+        </revhistory>
+    </bookinfo>
+    <chapter>
+    	<title>About</title>
+        <para>This is documentation for db2xhtml Library for DocBook<footnote><para>DocBook is a semantic markup language for technical documentation.</para></footnote> browser side XHTML rendering.</para>
+        <warning>
+            <para>Coverage of this documentation is far from complete.</para>
+        </warning>
+        <section>
+            <title>Documentation license</title>
+            <para>This documentation is licensed under <link linkend="fdl">GNU Free Documentation License</link>.</para>
+        </section>
+    </chapter>
+    <chapter>
+        <title>Questions and Answers</title>
+        <section>
+            <title>What is DocBook?</title>
+        </section>
+        <section>
+            <title>How to do DocBook document?</title>
+        </section>
+        <section>
+            <title>How to join multiple files?</title>
+        </section>
+    </chapter>
+    <chapter>
+        <title>Elements</title>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_caution.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_note.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_programlisting.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_tip.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_ulink.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_warning.xml" />
+    </chapter>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="fdl-1.3.xml" />
+</book>

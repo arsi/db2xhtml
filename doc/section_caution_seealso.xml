@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/main.xsl"?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<section id="element_caution_parents">
+    <title>Related elements</title>
+    <para>Related elements: 
+        <simplelist type='inline'>
+            <member><link linkend="element_important">important</link></member>
+            <member><link linkend="element_note">note</link></member>
+            <member><link linkend="element_tip">tip</link></member>
+            <member><link linkend="element_warning">warning</link></member>
+        </simplelist>
+    </para>
+</section>

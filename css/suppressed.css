@@ -1,0 +1,23 @@
+@media screen {
+    div.e_sectioninfo {
+        position: absolute;
+        left: 830px;
+        color: #000000;
+        background-color: #eeccaa;
+        width: 400px;
+        border: 1px solid #664422;
+        padding: 10px;
+        margin: 0px;
+        z-index: 0;
+    }
+}
+
+@media print {
+    div.e_sectioninfo {
+        width: 100%;
+        border: 1px solid #664422;
+        background-color: #eeccaa;
+        padding: 10px;
+        page-break-inside: avoid;
+    }
+}
