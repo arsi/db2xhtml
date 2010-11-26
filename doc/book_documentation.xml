@@ -72,6 +72,7 @@
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_ulink.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_warning.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_xi_include.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_xref.xml" />
     </chapter>
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="fdl-1.3.xml" />
 </book>
