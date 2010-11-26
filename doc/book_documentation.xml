@@ -62,6 +62,7 @@
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_command.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_footnote.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_note.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_orderedlist.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_para.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_programlisting.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_section.xml" />
