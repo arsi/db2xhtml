@@ -45,6 +45,7 @@
     </chapter>
     <chapter>
         <title>Elements</title>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_appendix.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_article.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_caution.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_note.xml" />
