@@ -35,6 +35,11 @@
         <title>Questions and Answers</title>
         <section>
             <title>What is DocBook?</title>
+            <para>DocBook is a semantic markup language for technical documentation based on XML language.</para>
+            <note>
+              <title>Source</title>
+              <para>DocBook at Wikipedia : <ulink url="http://en.wikipedia.org/wiki/DocBook" /></para>
+            </note>
         </section>
         <section>
             <title>How to do DocBook document?</title>
