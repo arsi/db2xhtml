@@ -31,6 +31,7 @@
         <para>db2xhtml Library is a XSLT+CSS library set for rendering DocBook XML file(s) to XHTML at browser side.</para>
         <para>Current target DocBook implementation is version 4.4.</para>
         <para>Generated XHTML is version 1.0 Transitional.</para>
+        <para>Library has been tested with Mozilla Firefox 3.6.12 and Google Chrome 7.0.517.44.</para>
         <warning>
             <para>Current DocBook implementation is far from complete.</para>
         </warning>

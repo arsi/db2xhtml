@@ -14,18 +14,17 @@
     </sectioninfo>
     <section>
         <title>Example of programlisting</title>
-        <para>This is a programlisting example.</para>
+        <para>This is a basic programlisting example.</para>
         <programlisting>10 PRINT "Hello world!"
 20 GOTO 10</programlisting>
-    </section>
-    <section>
-        <title>Example lines</title>
+        <para>and XML lines for this</para>
         <programlisting><![CDATA[<programlisting>10 PRINT "Hello world!"
 20 GOTO 10</programlisting>]]></programlisting>
-    </section>
-    <section>
-        <title>Example of other stuff inside programlisting</title>
+        <para>Example of other elements inside programlisting</para>
         <programlisting>10 PRINT "<emphasis>Hello world!</emphasis>"
 20 GOTO 10</programlisting>
+        <para>... Yes, we can't see anything. db2xhtml Library can't do this (yet). It will just strip all the XML tags inside <sgmltag>programlisting</sgmltag>.</para>
+        <programlisting><![CDATA[<programlisting>10 PRINT "<emphasis>Hello world!</emphasis>"
+20 GOTO 10</programlisting>]]></programlisting>
     </section>
 </section>
