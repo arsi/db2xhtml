@@ -69,6 +69,7 @@
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_section.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_set.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_simpara.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_simplelist.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_tip.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_title.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_ulink.xml" />
