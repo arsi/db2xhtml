@@ -3,4 +3,36 @@
 <!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <section id="element_book">
     <title>book</title>
+    <sectioninfo>
+        <revhistory>
+            <revision>
+                <date>2010-12-07</date>
+                <author><firstname>Arsi</firstname><surname>Atomi</surname></author>
+                <revremark>Initial draft</revremark>
+            </revision>
+        </revhistory>
+    </sectioninfo>
+    <para>A complete book.</para>
+    <section>
+        <title>book in db2xhtml Library</title>
+        <para>book doesn't have any particular style in db2xhtml Library.</para>
+        <para>Content styles are at <filename>~css/main.css</filename></para>
+        <para>Processing at <filename>~xsl/elements/block/book.xsl</filename></para>
+    </section>
+    <section>
+        <title>Example file of DocBook V4.4 book</title>
+        <programlisting><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<book>
+    <title>Example book</title>
+    <chapter>
+        <title>First Chapter</title>
+        <para>Blaa blaa blaa blaa</para>
+    </chapter>
+    <chapter>
+        <title>Second Chapter</title>
+        <para>More blaa blaa blaa</para>
+    </chapter>
+</book>]]></programlisting>
+    </section>
 </section>
