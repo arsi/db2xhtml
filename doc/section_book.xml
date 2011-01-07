@@ -13,6 +13,10 @@
         </revhistory>
     </sectioninfo>
     <para>A complete book.</para>
+    <note>
+        <title>Source</title>
+        <para>DocBook: The Definitive Guide : <ulink url="http://www.docbook.org/tdg/en/html/book.html" /></para>
+    </note>
     <section>
         <title>book in db2xhtml Library</title>
         <para>book doesn't have any particular style in db2xhtml Library.</para>

@@ -43,9 +43,12 @@
         </section>
         <section>
             <title>How to do DocBook document?</title>
+            <para>You can use any generic text editors or you can use dedicated XML editors.</para>
+            <para>This page has good list of validating DocBook editors : <ulink url="http://wiki.docbook.org/topic/DocBookAuthoringTools" /></para>
         </section>
         <section>
             <title>How to join multiple files?</title>
+            <para>See <link linkend="element_xi_include">xi:include</link></para>
         </section>
     </chapter>
     <chapter>
