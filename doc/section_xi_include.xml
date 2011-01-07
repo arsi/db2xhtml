@@ -3,4 +3,41 @@
 <!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <section id="element_xi_include">
     <title>xi:include</title>
+    <sectioninfo>
+        <revhistory>
+            <revision>
+                <date>2011-01-07</date>
+                <author><firstname>Arsi</firstname><surname>Atomi</surname></author>
+                <revremark>Initial draft</revremark>
+            </revision>
+        </revhistory>
+    </sectioninfo>
+    <para>xi:include is not part of DocBook specification, but is part of <ulink url="http://www.w3.org/TR/2003/WD-xinclude-20031110/">XML Inclusions</ulink> (XInclude).</para>
+    <para>Since browser support for XInclude is not wide yet db2xhtml Library implements XSL emulated support for xi:include.</para>
+    <section>
+        <title>xi:include in db2xhtml Library</title>
+        <para>xi:include does not have any visuals in db2xhtml Library.</para>
+        <para>Processing at <filename>~xsl/elements/xi_include.xsl</filename></para>
+    </section>
+    <section>
+        <title>Example of xi:include in DocBook document</title>
+        <para>First file <filename>book.xml</filename></para>
+        <programlisting><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<book>
+    <title>Example book</title>
+    <chapter>
+        <title>First Chapter</title>
+        <para>Blaa blaa blaa blaa</para>
+    </chapter>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter.xml" />
+</book>]]></programlisting>
+        <para>Second file <filename>chapter.xml</filename></para>
+        <programlisting><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter>
+    <title>Second Chapter</title>
+    <para>This is second chapter which is included from chapter.xml</para>
+</chapter>]]></programlisting>
+    </section>    
 </section>
