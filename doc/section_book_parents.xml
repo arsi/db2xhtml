@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/main.xsl"?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<section id="element_caution_parents">
+    <title>Parents containing book</title>
+    <para>These elements can contain <sgmltag>book</sgmltag>:
+        <simplelist type='inline'>
+            <member><link linkend="element_set">set</link></member>
+        </simplelist>
+    </para>
+</section>
