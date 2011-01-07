@@ -35,4 +35,7 @@
     </chapter>
 </book>]]></programlisting>
     </section>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_book_parents.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_book_children.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_book_seealso.xml" />
 </section>

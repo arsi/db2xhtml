@@ -53,6 +53,7 @@
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_appendix.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_article.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_articleinfo.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_beginpage.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_bibliography.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_book.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_bookinfo.xml" />
