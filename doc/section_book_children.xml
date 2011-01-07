@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/main.xsl"?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<section id="element_book_children">
+    <title>Children of book</title>
+    <para>These elements can occur in <sgmltag>book</sgmltag>:
+        <simplelist type='inline'>
+            <member><link linkend="element_appendix">appendix</link></member>
+            <member><link linkend="element_article">article</link></member>
+            <member><link linkend="element_bibliography">bibliography</link></member>
+            <member><link linkend="element_bookinfo">bookinfo</link></member>
+            <member><link linkend="element_chapter">chapter</link></member>
+            <member><link linkend="element_colophon">colophon</link></member>
+            <member><link linkend="element_dedication">dedication</link></member>
+            <member><link linkend="element_glossary">glossary</link></member>
+            <member><link linkend="element_index">index</link></member>
+            <member><link linkend="element_lot">lot</link></member>
+            <member><link linkend="element_part">part</link></member>
+            <member><link linkend="element_preface">preface</link></member>
+            <member><link linkend="element_reference">reference</link></member>
+            <member><link linkend="element_setindex">setindex</link></member>
+            <member><link linkend="element_subtitle">subtitle</link></member>
+            <member><link linkend="element_title">title</link></member>
+            <member><link linkend="element_titleabbrev">titleabbrev</link></member>
+            <member><link linkend="element_toc">toc</link></member>
+        </simplelist>
+    </para>
+</section>
