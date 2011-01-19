@@ -6,7 +6,7 @@
     <bookinfo>
         <legalnotice>
             <para>db2xhtml Library, DocBook to XHTML XSLT+CSS Library for Client side rendering</para>
-            <para>Copyright (C) 2010 Arsi Atomi</para>
+            <para>Copyright (C) 2010,2011 Arsi Atomi</para>
             <para>This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -31,7 +31,8 @@
         <para>db2xhtml Library is a XSLT+CSS library set for rendering DocBook XML file(s) to XHTML at browser side.</para>
         <para>Current target DocBook implementation is version 4.4.</para>
         <para>Generated XHTML is version 1.0 Transitional.</para>
-        <para>Library has been tested with Mozilla Firefox 3.6.12 and Google Chrome 7.0.517.44.</para>
+        <para>Library has been tested with <application>Mozilla Firefox</application> 3.6.12 and <application>Google Chrome</application> 7.0.517.44.</para>
+        <para>Library does <emphasis>not</emphasis> work with <application>Internet Explorer</application> (version 8.0.7600.16385).</para>
         <warning>
             <para>Current DocBook implementation is far from complete.</para>
         </warning>

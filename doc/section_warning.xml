@@ -54,7 +54,6 @@
             </itemizedlist>
 </warning>]]></programlisting>
     </section>
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_warning_parents.xml" />
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_warning_children.xml" />
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_warning_seealso.xml" />
 </section>
