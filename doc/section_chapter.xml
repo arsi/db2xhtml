@@ -3,4 +3,28 @@
 <!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <section id="element_chapter">
     <title>chapter</title>
+    <sectioninfo>
+        <revhistory>
+            <revision>
+                <date>2011-01-20</date>
+                <author><firstname>Arsi</firstname><surname>Atomi</surname></author>
+                <revremark>Initial draft</revremark>
+            </revision>
+        </revhistory>
+    </sectioninfo>
+    <para>Defines a chapter in book.</para>
+    <note>
+        <title>Source</title>
+        <para>DocBook: The Definitive Guide : <ulink url="http://www.docbook.org/tdg/en/html/chapter.html" /></para>
+    </note>
+    <section>
+        <title>chapter in db2xhtml Library</title>
+        <para>chapter is styled like other sections.</para>
+        <para>Content styles are at <filename>~css/sectioncounters.css</filename> and for Table of Contents at <filename>~css/toc.css</filename></para>
+        <para>Processing at <filename>~xsl/elements/block/chapter.xsl</filename></para>
+    </section>
+    <section>
+        <title>Example of chapter</title>
+        <para>See <link linkend="element_book">book</link> for chapter example.</para>
+    </section>
 </section>
