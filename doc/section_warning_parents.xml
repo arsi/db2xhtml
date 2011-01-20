@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/main.xsl"?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<section id="element_warning_parents">
+    <title>Parents containing warning</title>
+    <para>These elements can contain <sgmltag>warning</sgmltag>:
+        <simplelist type='inline'>
+            <member><link linkend="element_answer">answer</link></member>
+            <member><link linkend="element_appendix">appendix</link></member>
+            <member><link linkend="element_article">article</link></member>
+            <member><link linkend="element_bibliodiv">bibliodiv</link></member>
+            <member><link linkend="element_bibliography">bibliography</link></member>
+            <member><link linkend="element_blockquote">blockquote</link></member>
+            <member><link linkend="element_callout">callout</link></member>
+            <member><link linkend="element_caption">caption</link></member>
+            <member><link linkend="element_chapter">chapter</link></member>
+            <member><link linkend="element_colophon">colophon</link></member>
+            <member><link linkend="element_dedication">dedication</link></member>
+            <member><link linkend="element_entry">entry</link></member>
+            <member><link linkend="element_glossary">glossary</link></member>
+            <member><link linkend="element_glossdiv">glossdiv</link></member>
+            <member><link linkend="element_highlights">highlights</link></member>
+            <member><link linkend="element_index">index</link></member>
+            <member><link linkend="element_itemizedlist">itemizedlist</link></member>
+            <member><link linkend="element_legalnotice">legalnotice</link></member>
+            <member><link linkend="element_listitem">listitem</link></member>
+            <member><link linkend="element_msgexplan">msgexplan</link></member>
+            <member><link linkend="element_msgtext">msgtext</link></member>
+            <member><link linkend="element_orderedlist">orderedlist</link></member>
+            <member><link linkend="element_para">para</link></member>
+            <member><link linkend="element_partintro">partintro</link></member>
+            <member><link linkend="element_preface">preface</link></member>
+            <member><link linkend="element_procedure">procedure</link></member>
+            <member><link linkend="element_qandadiv">qandadiv</link></member>
+            <member><link linkend="element_qandaset">qandaset</link></member>
+            <member><link linkend="element_question">question</link></member>
+            <member><link linkend="element_refsect1">refsect1</link></member>
+            <member><link linkend="element_refsect2">refsect2</link></member>
+            <member><link linkend="element_refsect3">refsect3</link></member>
+            <member><link linkend="element_refsection">refsection</link></member>
+            <member><link linkend="element_refsynopsisdiv">refsynopsisdiv</link></member>
+            <member><link linkend="element_revdescription">revdescription</link></member>
+            <member><link linkend="element_sect1">sect1</link></member>
+            <member><link linkend="element_sect2">sect2</link></member>
+            <member><link linkend="element_sect3">sect3</link></member>
+            <member><link linkend="element_sect4">sect4</link></member>
+            <member><link linkend="element_sect5">sect5</link></member>
+            <member><link linkend="element_section">section</link></member>
+            <member><link linkend="element_setindex">setindex</link></member>
+            <member><link linkend="element_sidebar">sidebar</link></member>
+            <member><link linkend="element_simplesect">simplesect</link></member>
+            <member><link linkend="element_step">step</link></member>
+            <member><link linkend="element_taskprerequisites">taskprerequisites</link></member>
+            <member><link linkend="element_taskrelated">taskrelated</link></member>
+            <member><link linkend="element_tasksummary">tasksummary</link></member>
+            <member><link linkend="element_td">td</link></member>
+            <member><link linkend="element_textobject">textobject</link></member>
+            <member><link linkend="element_th">th</link></member>
+            <member><link linkend="element_variablelist">variablelist</link></member>
+        </simplelist>
+    </para>
+</section>

@@ -35,8 +35,8 @@
         </warning>
         <para>XML lines</para>
         <programlisting><![CDATA[<warning>
-    <title>Warning title</title>
-    <para>This is a warning example</para>
+<title>Warning title</title>
+<para>This is a warning example</para>
 </warning>]]></programlisting>
         <para>Also, warning can have many different elements inside</para>
         <para>Here's example with <sgmltag>itemizedlist</sgmltag></para>
@@ -48,12 +48,13 @@
         </warning>
         <para>And XML lines</para>
         <programlisting><![CDATA[<warning>
-            <itemizedlist>
-                <listitem><para>First item</para></listitem>
-                <listitem><para>Second item</para></listitem>
-            </itemizedlist>
+    <itemizedlist>
+        <listitem><para>First item</para></listitem>
+        <listitem><para>Second item</para></listitem>
+    </itemizedlist>
 </warning>]]></programlisting>
     </section>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_warning_parents.xml" />
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_warning_children.xml" />
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_warning_seealso.xml" />
 </section>
