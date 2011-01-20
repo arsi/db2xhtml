@@ -13,7 +13,7 @@
         </revhistory>
     </sectioninfo>
     <para>xi:include is not part of DocBook specification, but is part of <ulink url="http://www.w3.org/TR/2003/WD-xinclude-20031110/">XML Inclusions</ulink> (XInclude).</para>
-    <para>Since browser support for XInclude is not wide yet db2xhtml Library implements XSL emulated support for xi:include.</para>
+    <para>Since browser support for XInclude is not wide yet<footnote><para>Gecko and WebKit do not support XInclude. See <ulink url="http://en.wikipedia.org/wiki/Comparison_of_layout_engines_%28XML%29#Core_technologies" /></para></footnote> db2xhtml Library implements XSL emulated support for xi:include.</para>
     <section>
         <title>xi:include in db2xhtml Library</title>
         <para>xi:include does not have any visuals in db2xhtml Library.</para>
