@@ -43,7 +43,7 @@
     </chapter>
     <chapter>
         <title>Homepage</title>
-        <para>Project homepage is at <ulink url="http://www.porkkana.org/~arsi/db2xhtml/doc/index.xml"/>.</para>
+        <para>Project homepage is at <ulink url="http://www.porkkana.org/~arsi/db2xhtml/"/>.</para>
         <para>Sources are downloadable at <ulink url="http://www.github.com/arsi/db2xhtml/"/>.</para>
     </chapter>
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="gpl-3.0.xml" />
