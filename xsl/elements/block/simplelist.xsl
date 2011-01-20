@@ -5,9 +5,9 @@
         <xsl:if test="@id">
             <a><xsl:attribute name="name"><xsl:value-of select="@id" /></xsl:attribute></a>
         </xsl:if>
-        <ol class="e_simplelist">
+        <div class="e_simplelist">
             <xsl:apply-templates select="member" />
-        </ol>
+        </div>
     </xsl:template>
    
 </xsl:transform>

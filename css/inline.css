@@ -96,6 +96,9 @@ span.e_quote:after {
     content: '"';
 }
 
+span.e_member {
+}
+
 span.e_revnumber {
     padding-left: 5px;
     border-left: 1px solid #664422;
