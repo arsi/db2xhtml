@@ -71,6 +71,7 @@
     <xsl:include href="elements/block/section.xsl" />
     <xsl:include href="elements/block/set.xsl" />
     <xsl:include href="elements/block/simpara.xsl" />
+    <xsl:include href="elements/block/simplelist.xsl" />
     <xsl:include href="elements/block/table.xsl" />
     <xsl:include href="elements/block/tbody.xsl" />
     <xsl:include href="elements/block/tgroup.xsl" />
@@ -100,6 +101,7 @@
     <xsl:include href="elements/inline/guibutton.xsl" />
     <xsl:include href="elements/inline/honorific.xsl" />
     <xsl:include href="elements/inline/link.xsl" />
+    <xsl:include href="elements/inline/member.xsl" />
     <xsl:include href="elements/inline/othername.xsl" />
     <xsl:include href="elements/inline/personname.xsl" />
     <xsl:include href="elements/inline/pubdate.xsl" />
