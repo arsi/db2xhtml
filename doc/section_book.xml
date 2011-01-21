@@ -25,7 +25,6 @@
     <section>
         <title>Example file of DocBook V4.4 book</title>
         <programlisting><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <book>
     <title>Example book</title>
     <chapter>
@@ -37,6 +36,9 @@
         <para>More blaa blaa blaa</para>
     </chapter>
 </book>]]></programlisting>
+        <note>
+            <para>DOCTYPE should be omitted, otherwise rendering does not work with <application>Internet Explorer</application>.</para>
+        </note>
     </section>
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_book_parents.xml" />
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section_book_children.xml" />
